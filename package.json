@@ -1,0 +1,24 @@
+{
+  "name": "bookmarkcreator",
+  "version": "1.0.0",
+  "description": "Converts js code into bookmarks.",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkoelko21/bookmarkcreator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elkoelko21/bookmarkcreator/issues"
+  },
+  "homepage": "https://github.com/elkoelko21/bookmarkcreator#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
