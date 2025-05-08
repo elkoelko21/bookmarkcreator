@@ -18,6 +18,6 @@ function escapeForHtmlAttr(str) {
     .replace(/>/g, '&gt;')
 }
 
-const bookmarklet = escapeForHtmlAttr('javascript:(function() { try{' + stripCommentsAndWhitespace(code) + '} catch(e) { console.log(e.message); } })();');
+const bookmarklet = escapeForHtmlAttr('javascript:(function() { try{' + stripCommentsAndWhitespace(code) + '} catch(e) {} })();');
 
 module.exports = { bookmarklet, bookmarkletimg };
